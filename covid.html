@@ -1,0 +1,29 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações sobre o covid</title>
+    <link rel="stylesheet" href="covid.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Infromações sobre a Covid-19</legend>
+        <p>Esse é um site não oficial com informações sobre o COVID-19</p>
+        <ul>
+            <li>Navegue pelas opções marcando as caixas e apertando em "Ver mais"</li>
+        </ul>
+        <form action="inicial19.php" method="POST">
+            <ol>
+                <li><input type="radio" name="inf" value="1">O que é Coronavirus?</li>
+                <li><input type="radio" name="inf" value="2">Transmição</li>
+                <li><input type="radio" name="inf" value="3">Sintomas</li>
+                <li><input type="radio" name="inf" value="4">Como se prevenir</li>
+                <li><input type="radio" name="inf" value="5">Tratamento</li>
+            </ol>
+            <button type="submit">Ver mais</button>
+        </form>
+    </fieldset>
+    <p class="centro"><a href="../"><button>Voltar para página inicial</button></a></p>
+</body>
+</html>
